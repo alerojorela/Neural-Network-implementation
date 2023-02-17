@@ -11,7 +11,7 @@ Deep Neural Network implementation exercise. Trains parameters for classificatio
 
 petal data:
 
-![](./img/Screenshot from 2023-02-18 00-01-35.png)
+![1](./img/petal1.png)
 
 summary & evaluation output:
 
@@ -40,9 +40,9 @@ Bias: baseline to 0.109
 Variance: 0.0781
 ```
 
-![](./img/Screenshot from 2023-02-18 00-05-20.png)
+![2](./img/petal2.png)
 
-![](./img/Screenshot from 2023-02-18 00-16-50.png)
+![3](./img/petal_cost.png)
 
 ## Usage
 
