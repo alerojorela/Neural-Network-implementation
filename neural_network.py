@@ -352,6 +352,7 @@ class Nn:
             grads = self._backward(AL, Y, caches)
 
             learning_rate = self.hyper['learning_rate']
+            # TODO: check for cost function rising
             # decaying α functions:
             # learning_rate = learning_rate0 / (1 + decay_rate * epoch_num)
             # learning_rate = learning_rate0 / (1 + decay_rate * math.floor(epoch_num / time_interval))

@@ -7,9 +7,46 @@ Deep Neural Network implementation exercise. Trains parameters for classificatio
 + optimization: momentum + ADAM
 + regularization: λ and dropout (units deactivation)
 
+## Example
+
+petal data:
+
+![](./img/Screenshot from 2023-02-18 00-01-35.png)
+
+summary & evaluation output:
+
+```
+HYPERPARAMETERS
+---------------
+convergence:
+    epochs: 15000
+    learning_rate: 0.0075
+    β: None
+    ADAM:
+        β1: 0.9
+        β2: 0.999
+regularization:
+    λ: 1
+    keep_units: None
+
+RESULTS
+-------
+Convergence epochs: 1969
+Final cost: 0.34
+TRAIN  Accuracy: 0.891
+TEST Accuracy: 0.812
+Baseline: ?
+Bias: baseline to 0.109
+Variance: 0.0781
+```
+
+![](./img/Screenshot from 2023-02-18 00-05-20.png)
+
+![](./img/Screenshot from 2023-02-18 00-16-50.png)
+
 ## Usage
 
-install dependencies
+install dependencies:
 
 `pip install numpy scikit-learn matplotlib scipy h5py`
 
